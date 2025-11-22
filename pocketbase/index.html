@@ -9,7 +9,22 @@
     <title>Pocketbase</title>
   </head>
   <body>
-    <div id="map"></div>
+    <div id="map">
+      <div id="stats" aria-live="polite">
+        <div class="stat"><span class="label">Marker inseriti</span><span class="value" id="stat-count">0</span></div>
+        <div class="stat"><span class="label">Temperatura Media</span><span class="value" id="stat-avg">—</span></div>
+        <div class="stat"><span class="label">Temperatura Max</span><span class="value" id="stat-max">—</span></div>
+        <div class="stat"><span class="label">Temperatura Min</span><span class="value" id="stat-min">—</span></div>
+      </div>
+      <div id="legend" aria-hidden="false">
+        <div class="legend-title">Legenda Colori</div>
+        <div class="legend-item"><span class="swatch" style="background:#0074D9"></span><span>Sotto 0°C</span></div>
+        <div class="legend-item"><span class="swatch" style="background:#2ECC40"></span><span>0–10°C</span></div>
+        <div class="legend-item"><span class="swatch" style="background:#FFDC00"></span><span>11–20°C</span></div>
+        <div class="legend-item"><span class="swatch" style="background:#FF4136"></span><span>Sopra 20°C</span></div>
+        <div class="legend-item"><span class="swatch" style="background:#AAAAAA"></span><span>Nessun dato</span></div>
+      </div>
+    </div>
 
     <script type="module" src="/src/main.js"></script>
   </body>
