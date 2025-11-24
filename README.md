@@ -1,5 +1,6 @@
 # pocketbase-scuola
-A school project
+email: xiancangelli@gmail.com
+password: password    // Forse?
 
 ## Fonti e attribuzioni
 - Leaflet – mappa interattiva (BSD-2-Clause)
