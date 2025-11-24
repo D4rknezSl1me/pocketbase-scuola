@@ -1,5 +1,6 @@
 # pocketbase-scuola
 email: xiancangelli@gmail.com
+
 password: password    // Forse?
 
 ## Fonti e attribuzioni
